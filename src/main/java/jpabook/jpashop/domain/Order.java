@@ -8,21 +8,21 @@ import java.util.List;
 
 @Entity
 @Table(name = "ORDERS")
-public class Order {
+public class Order extends BaseEntity{
 
     @Id @GeneratedValue
     @Column(name = "ORDER_ID")
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "MEMBER_ID")
     private Member member;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL) // 영속성 전이. Order생성시 Delivery도 생성됨
     @JoinColumn(name = "DELIVERY_ID")
     private Delivery delivery;
 
-    @OneToMany(mappedBy = "order") // 주인이 OrderItem에 있는 order
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL) // 주인이 OrderItem에 있는 order
     private List<OrderItem> orderItems = new ArrayList<>();
 
     private LocalDateTime orderDate;
