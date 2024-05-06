@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23c4933-f9e8-4f11-af19-eba3185e3c1c" name="Changes" comment="5/2 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-    </list>
+    <list default="true" id="b23c4933-f9e8-4f11-af19-eba3185e3c1c" name="Changes" comment="5/4 commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,12 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714657808316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5/4 commit">
+      <option name="closed" value="true" />
+      <created>1714797326274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714797326274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5/1 commit" />
     <MESSAGE value="5/2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/2 commit" />
+    <MESSAGE value="5/4 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/4 commit" />
   </component>
 </project>
